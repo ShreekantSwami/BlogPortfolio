@@ -12,7 +12,6 @@
   box-sizing: border-box;
   transition-duration: 150;
   font-family: "Marhey";
-  /* font-size: 1.4rem; */
 }
 @keyframes glow {
   0% {
