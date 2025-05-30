@@ -31,7 +31,7 @@ const Home = () => {
             </div>
             <br />
             <br className='hidden lg:block' />
-            <small className="text-base-content block mb-8 lg:text-xl">
+            <small className="text-base-content block mb-8 lg:text-xl hover:scale-105">
                 Ready to make magic happen with you!
             </small>
         </section>
