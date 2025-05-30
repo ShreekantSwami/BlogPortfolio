@@ -1,0 +1,50 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: nord --default, coffee --prefersdark, coffee, cupcake, aqua, light,
+    dark, bumblebee, emerald, corporate, synthwave, retro, cyberpunk, valentine,
+    halloween, garden, forest, lofi, pastel, fantasy, wireframe, black, luxury,
+    dracula, cmyk, autumn, business, acid, lemonade, night, winter, dim, sunset,
+    caramellatte, abyss, silk;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition-duration: 150;
+  font-family: "Marhey";
+}
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 -5px 5px gold);
+  }
+  50% {
+    filter: drop-shadow(0 -5px 10px gold);
+  }
+  100% {
+    filter: drop-shadow(0 -5px 5px gold);
+  }
+}
+
+.glow {
+  animation: glow 2s infinite ease-in-out;
+}
+
+@keyframes profileGlow {
+  0% {
+    filter: drop-shadow(0 0px 5px #bbb);
+  }
+  50% {
+    filter: drop-shadow(0 0px 10px #bbb);
+  }
+  100% {
+    filter: drop-shadow(0 0px 5px #bbb);
+  }
+}
+
+.profileGlow {
+  animation: profileGlow 5s infinite ease-in-out;
+}
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+}
