@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: nord --default, coffee --prefersdark, coffee, cupcake, aqua, light,
+  themes: nord --default, luxury --prefersdark, coffee, cupcake, aqua, light,
     dark, bumblebee, emerald, corporate, synthwave, retro, cyberpunk, valentine,
     halloween, garden, forest, lofi, pastel, fantasy, wireframe, black, luxury,
     dracula, cmyk, autumn, business, acid, lemonade, night, winter, dim, sunset,

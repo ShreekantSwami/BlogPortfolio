@@ -1,8 +1,12 @@
 import profileImage from '../assets/profile.png'
+import ThemeController from './UI/ThemeController'
 
 const Home = () => {
     return (
-        <section className='w-full h-screen flex flex-col items-center justify-center p-10'>
+        <section className='w-full h-screen flex flex-col items-center justify-center p-10 relative'>
+            <div className="absolute right-10 top-10">
+                <ThemeController />
+            </div>
             <div className="w-[90%] lg:h-1/2 text-center flex flex-col lg:flex-row justify-center items-center">
                 <div className='w-2/3 h-full flex justify-center items-center'>
                     <p className='w-full text-xl md:text-4xl lg:text-6xl font-semibold mb-4 mx-5 lg:leading-20'>

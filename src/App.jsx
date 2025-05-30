@@ -6,8 +6,18 @@ import SpecificBlog from './components/SpecificBlog'
 import Admin from './components/Admin/Admin'
 import AdminDashboard from './components/Admin/AdminDashboard'
 import AdminLogin from './components/Admin/AdminLogin'
+import { useEffect } from 'react'
+
+
+
 
 const App = () => {
+  useEffect(() => {
+    const saved = localStorage.getItem('theme')
+    if (saved) {
+      document.documentElement.setAttribute('data-theme', saved)
+    }
+  }, [])
   return (
     <Routes>
       <Route path="/" element={<Home />} />
