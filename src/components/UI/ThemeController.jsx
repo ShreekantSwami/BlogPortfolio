@@ -12,7 +12,7 @@ const themes = [
 
 const ThemeController = () => {
     return (
-        <div className="dropdown dropdown-end z-40 mb-72" style={{ padding: '10px' }}>
+        <div className="dropdown dropdown-end z-40 mb-72 top-0 right-0" style={{ padding: '10px' }}>
             <div tabIndex={0} role="button" className="btn m-1 border-2 gap-2" style={{ padding: '10px' }}>
                 <Shell className="w-4 h-4" />
                 Menu
@@ -40,13 +40,13 @@ const ThemeController = () => {
                         <summary>Themes</summary>
                         <ul className="max-h-60 overflow-y-auto px-2 py-2" style={{ padding: '10px' }}>
                             {themes.map((theme) => (
-                                <li key={theme}>
+                                <li key={theme} style={{ padding: '4px' }}>
                                     <button
                                         onClick={() => {
                                             document.documentElement.setAttribute('data-theme', theme)
                                             localStorage.setItem('theme', theme)
                                         }}
-                                        className="w-full text-left px-2 py-1 rounded hover:bg-base-300 transition"
+                                        className="w-full text-left px-2 py-1 rounded hover:bg-base-300 transition capitalize text-xs"
                                     >
                                         {theme}
                                     </button>

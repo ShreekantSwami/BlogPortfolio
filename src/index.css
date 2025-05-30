@@ -12,6 +12,8 @@
   box-sizing: border-box;
   transition-duration: 150;
   font-family: "Marhey";
+  -webkit-user-drag: none;
+  user-select: none;
 }
 @keyframes glow {
   0% {
