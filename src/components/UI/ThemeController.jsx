@@ -2,11 +2,16 @@ import React from 'react'
 import { Shell } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
+// const themes = [
+//     'nord', 'coffee', 'cupcake', 'aqua', 'light', 'dark', 'bumblebee', 'emerald',
+//     'corporate', 'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween',
+//     'garden', 'forest', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black',
+//     'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade',
+//     'night', 'winter', 'dim', 'sunset', 'caramellatte', 'abyss', 'silk'
+// ]
 const themes = [
-    'nord', 'coffee', 'cupcake', 'aqua', 'light', 'dark', 'bumblebee', 'emerald',
-    'corporate', 'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween',
-    'garden', 'forest', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black',
-    'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade',
+    'nord', 'coffee', 'dark', 'bumblebee', 'emerald',
+    'corporate', 'valentine', 'lofi', 'luxury', 'cmyk', 'business', 'lemonade',
     'night', 'winter', 'dim', 'sunset', 'caramellatte', 'abyss', 'silk'
 ]
 
