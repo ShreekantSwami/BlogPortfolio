@@ -79,7 +79,7 @@ const About = () => {
                 <br className='hidden lg:block' />
 
                 <div class="container px-5 py-24 mx-auto">
-                    <div class="-my-8 divide-y-2 divide-gray-100">
+                    <div class="">
                         <div class="py-8 flex flex-wrap md:flex-nowrap">
                             <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
                                 <span class="font-semibold title-font text-base-content leading-10 lg:leading-10">0.6 years</span>
