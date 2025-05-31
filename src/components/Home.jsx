@@ -14,6 +14,7 @@ const Home = () => {
         >
 
             <ThemeController />
+
             <div className="w-[90%] lg:h-1/2 text-center flex flex-col lg:flex-row justify-center items-center">
                 <div className='w-2/3 h-full flex justify-center items-center'>
                     <p className='w-full text-2xl md:text-4xl lg:text-6xl font-semibold mb-4 mx-5 lg:leading-20'>
@@ -35,6 +36,7 @@ const Home = () => {
             </div>
             <br />
             <br className='hidden lg:block' />
+            <blockquote style={{ padding: '0 15px' }} className='text-center'>"You might know me as Shrikant, Shrikanth, or Shreekant —&nbsp;same&nbsp;person&nbsp;😄"</blockquote>
             <div className='relative'>
 
                 <small className="text-base-content block mb-8 lg:text-xl hover:scale-105 duration-150">
