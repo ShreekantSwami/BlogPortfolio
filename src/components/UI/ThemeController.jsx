@@ -12,7 +12,7 @@ const themes = [
 
 const ThemeController = () => {
     return (
-        <div className="dropdown dropdown-end z-40 mb-72 top-0 right-0" style={{ padding: '10px' }}>
+        <div className="dropdown dropdown-end z-40 mb-72  xl:absolute top-0 right-0" style={{ padding: '10px' }}>
             <div tabIndex={0} role="button" className="btn m-1 border-2 gap-2" style={{ padding: '10px' }}>
                 <Shell className="w-4 h-4" />
                 Menu
