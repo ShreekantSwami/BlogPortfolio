@@ -8,6 +8,7 @@ import SpecificBlog from './components/SpecificBlog'
 import Admin from './components/Admin/Admin'
 import AdminLogin from './components/Admin/AdminLogin'
 import AdminDashboard from './components/Admin/AdminDashboard'
+import AdminRegister from './components/Admin/AdminRegister'
 
 const App = () => {
   const location = useLocation()
@@ -26,9 +27,10 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/blogs/:blog" element={<SpecificBlog />} />
-        <Route path="/admin" element={<Admin />}>
+        <Route path="/admin" >
           <Route index element={<AdminDashboard />} />
           <Route path="login" element={<AdminLogin />} />
+          <Route path="register" element={<AdminRegister />} />
         </Route>
       </Routes>
     </AnimatePresence>
